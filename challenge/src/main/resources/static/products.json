@@ -1,0 +1,125 @@
+[
+  {
+    "id": "1",
+    "title": "Samsung Galaxy A55 5G Dual SIM 256 GB azul oscuro 8 GB RAM",
+    "description": "El Samsung Galaxy A55 5G es un smartphone de gama media con conectividad 5G, gran almacenamiento y una batería de larga duración. Ideal para el uso diario y el entretenimiento. Incluye una pantalla AMOLED vibrante y un sistema de cámaras versátil. Su diseño elegante y resistente lo hace perfecto para cualquier estilo de vida.",
+    "price": 439.00,
+    "currency": "USD",
+    "images": [
+      "https://example.com/images/a55-1.jpg",
+      "https://example.com/images/a55-2.jpg",
+      "https://example.com/images/a55-3.jpg"
+    ],
+    "sellerInfo": {
+      "name": "Tienda Oficial Samsung",
+      "rating": 4.8,
+      "reviews": 1250
+    },
+    "paymentMethods": [
+      "VISA",
+      "MasterCard",
+      "OCA",
+      "Mercado Pago"
+    ],
+    "stock": 50,
+    "additionalDetails": {
+      "brand": "Samsung",
+      "model": "Galaxy A55 5G",
+      "storage": "256 GB",
+      "ram": "8 GB",
+      "color": "Azul Oscuro"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Xiaomi Redmi Note 13 Pro+ 5G 512 GB negro 12 GB RAM",
+    "description": "El Xiaomi Redmi Note 13 Pro+ 5G es un potente smartphone con una gran capacidad de almacenamiento y RAM, ideal para gaming y multitarea. Su cámara de alta resolución captura fotos impresionantes y su carga rápida te mantiene siempre conectado.",
+    "price": 421.00,
+    "currency": "USD",
+    "images": [
+      "https://example.com/images/redmi13pro-1.jpg",
+      "https://example.com/images/redmi13pro-2.jpg",
+      "https://example.com/images/redmi13pro-3.jpg"
+    ],
+    "sellerInfo": {
+      "name": "Tech Gadgets Store",
+      "rating": 4.5,
+      "reviews": 890
+    },
+    "paymentMethods": [
+      "VISA",
+      "MasterCard",
+      "PayPal"
+    ],
+    "stock": 35,
+    "additionalDetails": {
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro+ 5G",
+      "storage": "512 GB",
+      "ram": "12 GB",
+      "color": "Negro"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Motorola Edge 40 Neo 256 GB azul caribe 8 GB RAM",
+    "description": "El Motorola Edge 40 Neo destaca por su diseño elegante, pantalla pOLED inmersiva y un rendimiento fluido. Es resistente al agua y ofrece una experiencia de usuario Android pura, con funciones de cámara avanzadas para capturar cada momento.",
+    "price": 419.00,
+    "currency": "USD",
+    "images": [
+      "https://example.com/images/edge40neo-1.jpg",
+      "https://example.com/images/edge40neo-2.jpg",
+      "https://example.com/images/edge40neo-3.jpg"
+    ],
+    "sellerInfo": {
+      "name": "MotoStore Oficial",
+      "rating": 4.7,
+      "reviews": 720
+    },
+    "paymentMethods": [
+      "VISA",
+      "MasterCard",
+      "American Express"
+    ],
+    "stock": 60,
+    "additionalDetails": {
+      "brand": "Motorola",
+      "model": "Edge 40 Neo",
+      "storage": "256 GB",
+      "ram": "8 GB",
+      "color": "Azul Caribe"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Samsung Galaxy S24 Ultra 512 GB titanio gris 12 GB RAM",
+    "description": "El Samsung Galaxy S24 Ultra es el tope de gama de Samsung, con una cámara revolucionaria, el S Pen integrado y un rendimiento inigualable. Su pantalla Dynamic AMOLED 2X ofrece una experiencia visual superior, y está diseñado para productividad y creatividad.",
+    "price": 1379.00,
+    "currency": "USD",
+    "images": [
+      "https://example.com/images/s24ultra-1.jpg",
+      "https://example.com/images/s24ultra-2.jpg",
+      "https://example.com/images/s24ultra-3.jpg"
+    ],
+    "sellerInfo": {
+      "name": "Tienda Oficial Samsung",
+      "rating": 4.9,
+      "reviews": 2500
+    },
+    "paymentMethods": [
+      "VISA",
+      "MasterCard",
+      "OCA",
+      "Mercado Pago",
+      "PayPal"
+    ],
+    "stock": 20,
+    "additionalDetails": {
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "storage": "512 GB",
+      "ram": "12 GB",
+      "color": "Titanio Gris"
+    }
+  }
+]
