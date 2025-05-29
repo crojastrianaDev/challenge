@@ -1,0 +1,14 @@
+<div #cardContainer class="card-container">
+  <div *ngFor="let product of services" class="card">
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.price }}</p>
+    <p>
+      <strong>Precio:</strong> {{ product.price | currency : product.currency }}
+    </p>
+
+    <!-- Botón para ver detalle -->
+    <button class="detail-button" [routerLink]="['/product', product.id]">
+      Ver detalle
+    </button>
+  </div>
+</div>

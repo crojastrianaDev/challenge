@@ -1,0 +1,6 @@
+.font {
+  background: var(--Tono1, #fef0d3);
+}
+.textFont {
+  color: var(--Tono2, #fd6d0d);
+}

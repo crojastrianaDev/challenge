@@ -1,0 +1,18 @@
+<div class="product-detail-container" *ngIf="product">
+  <h2 class="title">{{ product.title }}</h2>
+
+  <div class="image-gallery" *ngIf="product.images">
+    <img
+      *ngFor="let img of product.images"
+      [src]="'assets/img/' + img"
+      alt="Imagen del producto"
+      class="product-image"
+    />
+  </div>
+
+  <p class="description">{{ product.description }}</p>
+
+  <p class="price"><strong>Precio:</strong> {{ product.price }}</p>
+
+  <button class="back-button" (click)="goBack()">← Volver</button>
+</div>

@@ -6,9 +6,9 @@
     "price": 439.00,
     "currency": "USD",
     "images": [
-      "https://example.com/images/a55-1.jpg",
-      "https://example.com/images/a55-2.jpg",
-      "https://example.com/images/a55-3.jpg"
+      "a55-1.jpg",
+      "a55-2.jpg",
+      "a55-3.jpg"
     ],
     "sellerInfo": {
       "name": "Tienda Oficial Samsung",
@@ -37,9 +37,9 @@
     "price": 421.00,
     "currency": "USD",
     "images": [
-      "https://example.com/images/redmi13pro-1.jpg",
-      "https://example.com/images/redmi13pro-2.jpg",
-      "https://example.com/images/redmi13pro-3.jpg"
+      "redmi13pro-1.jpg",
+      "redmi13pro-2.jpg",
+      "redmi13pro-3.jpg"
     ],
     "sellerInfo": {
       "name": "Tech Gadgets Store",
@@ -67,9 +67,9 @@
     "price": 419.00,
     "currency": "USD",
     "images": [
-      "https://example.com/images/edge40neo-1.jpg",
-      "https://example.com/images/edge40neo-2.jpg",
-      "https://example.com/images/edge40neo-3.jpg"
+      "edge40neo-1.jpg",
+      "edge40neo-2.jpg",
+      "edge40neo-3.jpg"
     ],
     "sellerInfo": {
       "name": "MotoStore Oficial",
@@ -97,9 +97,9 @@
     "price": 1379.00,
     "currency": "USD",
     "images": [
-      "https://example.com/images/s24ultra-1.jpg",
-      "https://example.com/images/s24ultra-2.jpg",
-      "https://example.com/images/s24ultra-3.jpg"
+      "s24ultra-1.jpg",
+      "s24ultra-2.jpg",
+      "s24ultra-3.jpg"
     ],
     "sellerInfo": {
       "name": "Tienda Oficial Samsung",
