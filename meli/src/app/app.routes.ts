@@ -13,7 +13,11 @@ export const routes: Routes = [
     component: ProductDetailComponent,
   },
   {
-    path: '**',
+    path: 'not-found',
     component: PageNotFoundComponent,
+  },
+  {
+    path: '**',
+    redirectTo: 'not-found',
   },
 ];
