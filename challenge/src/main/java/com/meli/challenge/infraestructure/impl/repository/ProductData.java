@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -17,6 +18,12 @@ public class ProductData implements IProductData {
     @Override
     public List<Product> getProducts() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        return Collections.singletonList(mapper.readValue(new File("../resources/static/products.json"), Product.class));
+        try (var inputStream = getClass().getClassLoader().getResourceAsStream("static/products.json")) {
+            if (inputStream == null) {
+                throw new IOException("No se encontró el archivo products.json en classpath");
+            }
+            Product[] products = mapper.readValue(inputStream, Product[].class);
+            return Arrays.asList(products);
+        }
     }
 }

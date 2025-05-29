@@ -34,6 +34,7 @@ public class GetProductController implements IGetProduct {
         }
     }
     @Override
+    @GetMapping()
     public List<ProductDto> getProducts() throws IOException {
             List<ProductDto> productDtos = productMapper.toDTOS(getProductUseCase.getProducts());
             if (productDtos == null){

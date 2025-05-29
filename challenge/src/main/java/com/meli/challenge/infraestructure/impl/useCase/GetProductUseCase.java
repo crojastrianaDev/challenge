@@ -25,6 +25,6 @@ public class GetProductUseCase implements IGetProductUseCase {
     @Override
     public Product getProduct(String id) throws IOException {
         List<Product> products = getProducts();
-        return products.stream().filter(x -> x.getId().equals(id)).findFirst().orElseThrow(null);
+        return products.stream().filter(x -> x.getId().equals(id)).findFirst().orElse(null);
     }
 }
