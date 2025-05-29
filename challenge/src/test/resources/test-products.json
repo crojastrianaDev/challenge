@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test-1",
+    "title": "Test Product A",
+    "description": "Desc A",
+    "price": 10.0,
+    "currency": "USD",
+    "images": [],
+    "sellerInfo": {},
+    "paymentMethods": [],
+    "stock": 10,
+    "additionalDetails": {}
+  },
+  {
+    "id": "test-2",
+    "title": "Test Product B",
+    "description": "Desc B",
+    "price": 20.0,
+    "currency": "USD",
+    "images": [],
+    "sellerInfo": {},
+    "paymentMethods": [],
+    "stock": 5,
+    "additionalDetails": {}
+  }
+]
