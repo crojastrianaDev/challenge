@@ -3,6 +3,7 @@ package com.meli.challenge.adapters.controllers.impl;
 import com.meli.challenge.adapters.controllers.IGetProduct;
 import com.meli.challenge.adapters.controllers.mappers.ProductMapper;
 import com.meli.challenge.adapters.dto.ProductDto;
+import com.meli.challenge.adapters.dto.ProductSimpleDto;
 import com.meli.challenge.application.IGetProductUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -35,8 +36,8 @@ public class GetProductController implements IGetProduct {
     }
     @Override
     @GetMapping()
-    public List<ProductDto> getProducts() throws IOException {
-            List<ProductDto> productDtos = productMapper.toDTOS(getProductUseCase.getProducts());
+    public List<ProductSimpleDto> getProducts() throws IOException {
+            List<ProductSimpleDto> productDtos = productMapper.toDTOS(getProductUseCase.getProducts());
             if (productDtos == null){
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not exists products");
             }
