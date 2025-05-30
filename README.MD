@@ -94,3 +94,18 @@ El diseño visual no fue el enfoque principal. Se priorizó la lógica funcional
 - Angular 17
 - RxJS
 - Jasmine / Karma
+
+## 🚧 Desafíos y Soluciones
+
+Durante el desarrollo del backend enfrenté un problema técnico relacionado con **Lombok**, ya que los constructores no estaban siendo reconocidos correctamente durante el proceso de ejecución. Esto impedía que el servicio se levantara de forma adecuada. Para solucionarlo, investigué en documentación oficial, foros y también consulté con herramientas de IA, donde descubrí que era necesario:
+
+- Configurar correctamente el plugin de **Lombok** en el proyecto.
+- Ajustar el archivo `pom.xml` para que el compilador tuviera soporte adecuado en tiempo de ejecución.
+- Agregar la configuración específica del plugin del compilador de Maven con soporte para **Lombok** y **MapStruct**.
+
+Adicionalmente, identifiqué que no era suficiente con implementar un endpoint para mostrar el detalle de un producto por su ID. Para mejorar la experiencia y funcionalidad del sistema, decidí incluir también un endpoint que retornara la **lista completa de productos**, utilizando su respectivo **DTO**, lo que permitió:
+
+- Renderizar la lista en el frontend con Angular.
+- Ofrecer un ejemplo más claro y completo de consumo de la API.
+
+Estas mejoras no solo resolvieron los problemas técnicos, sino que también contribuyeron a una solución más completa y coherente en términos de diseño funcional.
