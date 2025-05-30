@@ -15,6 +15,7 @@ import { catchError, of } from 'rxjs';
 })
 export class ProductDetailComponent {
   product: Product | null = null;
+  currentImageIndex: number = 0;
 
   constructor(
     private route: ActivatedRoute,
@@ -40,5 +41,23 @@ export class ProductDetailComponent {
   }
   goBack(): void {
     this.location.back();
+  }
+  prevImage(): void {
+    if (this.product?.images) {
+      this.currentImageIndex =
+        (this.currentImageIndex - 1 + this.product.images.length) %
+        this.product.images.length;
+    }
+  }
+
+  nextImage(): void {
+    if (this.product?.images) {
+      this.currentImageIndex =
+        (this.currentImageIndex + 1) % this.product.images.length;
+    }
+  }
+
+  goToImage(index: number): void {
+    this.currentImageIndex = index;
   }
 }

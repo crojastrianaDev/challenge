@@ -1,13 +1,26 @@
 <div class="product-detail-container" *ngIf="product">
   <h2 class="title">{{ product.title }}</h2>
 
-  <div class="image-gallery" *ngIf="product.images">
-    <img
-      *ngFor="let img of product.images"
-      [src]="'assets/img/' + img"
-      alt="Imagen del producto"
-      class="product-image"
-    />
+  <div class="carousel">
+    <div class="carousel-images">
+      <img
+        [src]="'assets/img/' + product.images[currentImageIndex]"
+        alt="Imagen del producto"
+        class="carousel-image"
+      />
+    </div>
+
+    <button class="carousel-button left" (click)="prevImage()">❮</button>
+    <button class="carousel-button right" (click)="nextImage()">❯</button>
+
+    <div class="carousel-dots">
+      <span
+        *ngFor="let img of product.images; let i = index"
+        class="dot"
+        [class.active]="i === currentImageIndex"
+        (click)="goToImage(i)"
+      ></span>
+    </div>
   </div>
 
   <p class="description">{{ product.description }}</p>
